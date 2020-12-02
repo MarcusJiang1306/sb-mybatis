@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      primary:
+        url: jdbc:mysql://localhost:3316/test?serverTimezone=UTC
+        username: root
+        password: 1234
+      secondary:
+        url: jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+        username: root
+        password: 1234
